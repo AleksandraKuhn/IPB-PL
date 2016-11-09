@@ -1,0 +1,63 @@
+Dzia³anie kalkulatora
+Anna Kowalewska
+Aleksandra Kuhn
+Anastasiia Lysina
+
+- w³¹cz kalkulator,
+-- wyœwietl "0",
+- wprowadŸ liczbê -> weryfikuj liczbê,
+-- je¿eli liczba z przecinkiem:
+--- sprawdŸ iloœæ znaków<=17 ->dalej, je¿eli iloœæ znaków>17 -> nie wpisuj,
+-- je¿eli liczba bez przecinka:
+-- sprawdŸ iloœæ znaków<=16 ->dalej, je¿eli iloœæ znaków>16 -> nie wpisuj, 
+- wybierz dzia³anie: 
+-- je¿eli pierwiastek -> "znak pierwiastka", 
+--- weryfikuj liczbê>=0 -> oblicz pierwiastek z wpisanej liczby, je¿eli liczba<0 -> nie wpisuj,
+-- je¿eli procent -> "%";
+-- je¿eli liczba ujemna -> +-, -> ponowne u¿ycie "+-" -> liczba dodatnia;
+-- je¿eli u³amek -> 1/x;
+-- je¿eli dodawanie -> +; 
+-- je¿eli odejmowanie -> -; 
+-- je¿eli mno¿enie -> *; 
+-- je¿eli dzielenie -> /; 
+- wprowadŸ liczbê -> weryfikuj liczbê,
+--je¿eli liczba z przecinkiem:
+--- sprawdŸ iloœæ znaków<=17 ->dalej, je¿eli iloœæ znaków>17 -> nie wpisuj,
+-- je¿eli liczba bez przecinka:
+-- sprawdŸ iloœæ znaków<=16 ->dalej, je¿eli iloœæ znaków>16 -> nie wpisuj,
+-- je¿eli pierwiastek -> "znak pierwiastka",
+--- weryfikuj liczbê>=0 -> oblicz pierwiastek z wpisanej liczby, je¿eli liczba<0 -> nie wpisuj,
+-- je¿eli procent -> "%";
+-- je¿eli liczba dodatnia/ujemna -> +-, -> ponowne u¿ycie "+-" -> liczba dodatnia;
+-- je¿eli u³amek -> 1/x;
+- je¿eli "<-" -> usuñ ostatni¹ wpisan¹ liczbê;
+- je¿eli "CE" -> skasuj to co na wyœwietlaczu, zachowaj liczby w pamiêci,
+- wybierz "=",
+-- oblicz wynik,
+-- poka¿ wynik,
+- zapamiêtaj wynik: 
+-- je¿eli M+; dodaj liczbê do pamiêci kalkulatora,
+-- je¿eli M-; odejmij liczbê z pamiêci kalkulatora,
+-- je¿eli MS; zapisz liczbê z wyœwietlacza do pamiêci kalkulatora,
+-- je¿eli MR; wyœwietl zapamiêtan¹ liczbê,
+- wprowadŸ liczbê -> weryfikuj liczbê,
+-- je¿eli liczba z przecinkiem:
+--- sprawdŸ iloœæ znaków<=17 ->dalej, je¿eli iloœæ znaków>17 -> nie wpisuj,
+-- je¿eli liczba bez przecinka:
+-- sprawdŸ iloœæ znaków<=16 ->dalej, je¿eli iloœæ znaków>16 -> nie wpisuj, 
+- wybierz dzia³anie: 
+-- je¿eli pierwiastek -> "znak pierwiastka", 
+--- weryfikuj liczbê>=0 -> oblicz pierwiastek z wpisanej liczby, je¿eli liczba<0 -> nie wpisuj,
+-- je¿eli procent -> "%";
+-- je¿eli liczba dodatnia/ujemna -> +-, -> ponowne u¿ycie "+-" -> liczba dodatnia,
+-- je¿eli u³amek -> 1/x;
+-- je¿eli dodawanie -> +; 
+-- je¿eli odejmowanie -> -; 
+-- je¿eli mno¿enie -> *; 
+-- je¿eli dzielenie -> /; 
+- je¿eli wybrano MR; wyœwietl zapamiêtan¹ liczbê,
+-- wybierz "=",
+-- oblicz wynik,
+-- poka¿ wynik,
+- je¿eli "C"-> kasuj liczby i dzia³ania na wyœwietlaczu,
+-- je¿eli "MC" -> wyczyœæ pamiêæ kalkulatora.
